@@ -1,0 +1,45 @@
+/**============ START DOCTORS PART ============**/
+
+#doctorsInfo_section{
+    padding: 0px 100px;
+}
+
+#doctorsInfo_section .doc_left {
+    width: 100%;
+}
+#doctorsInfo_section .doc_left img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+#doctorsInfo_section .doc_right{
+    padding-left: 50px;
+}
+#doctorsInfo_section .doc_right p{
+    font-size: 18px;
+    text-align: justify;
+} 
+#doctorsInfo_section .doc_right h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+} 
+
+#doctorsInfo_section .doc_right .social-icons{
+    margin-top: 30px;
+}
+#doctorsInfo_section .doc_right .social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform .5s;
+}
+#doctorsInfo_section .doc_right .social-icons a:hover{
+    color: #1b5583;
+    transform: translateY(-5px);
+}
+
+/**============ END DOCTORS PART ============**/

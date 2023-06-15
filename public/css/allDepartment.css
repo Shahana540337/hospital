@@ -1,0 +1,47 @@
+.allDepartment_section {
+    padding: 50px 0;
+}
+.allDepartment_section .allPart_photo img{
+    height: 300px;
+    width: 100%;
+}
+.allDepartment_section .allPart_text{
+    padding-left: 50px;
+}
+.allDepartment_section .allPart_text h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.allDepartment_section .allPart_text p{
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.daignostic_section p{
+    margin-bottom: 0;
+}
+.radiologyPathology_section .allPart_photo  img{
+    position: relative;
+    width: 100%;
+    height: 170px;
+}
+.radiologyPathology_section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .2);
+}
+.radiologyPathology_section .overlay p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}

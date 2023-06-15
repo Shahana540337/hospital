@@ -1,0 +1,51 @@
+    
+                    
+                 
+                    /**============ START BANNER PART ============**/
+.blood_bonate_banner{
+    background: url(../img/blood_donate.jpg);
+    padding: 0px 120px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.blood_bonate_banner h2{
+    font-size: 30px;
+    color: #111111;
+}
+.blood_bonate_banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+}
+.blood_bonate_banner p{
+ 	font-size: 16px;
+    text-align: justify;
+ 	color: #343333;
+    padding: 8px;
+}
+.blood_bonate_banner .btn2{    
+    background-color: #cb475f;
+    color: #fff;
+	padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    transition: .4s;
+    border: none;
+    margin-right: 20px;
+}                  
+   
+.blood_bonate_banner .btn2:hover{
+	color: #101010;
+	background: #fff;
+	padding: 15px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    transition: .4s;
+}
+
+					/**============ END BANNER PART ============**/

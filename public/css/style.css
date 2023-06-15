@@ -1,0 +1,578 @@
+/* 
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+*/
+					/**============ START COMMON CSS PART ============**/
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.title h3{
+    font-size: 30px;
+    color: #063852;
+}
+.title span{
+        color:#01b3fb;
+}
+.btn , .btn2:hover{
+	color: #101010;
+	background: #fff;
+	padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    transition: .4s;
+    border: 1px solid rgb(12, 145, 254);
+}
+.btn:hover , .btn2{    
+    background-color: #00b3fe;
+    color: #fff;
+	padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    transition: .4s;
+    border: 1px solid rgb(12, 145, 254);
+}
+
+					/**============ END COMMON CSS PART ============**/
+
+
+
+					/**============ START NAV PART ============**/
+
+.header nav{
+    background: #004274;
+}
+.header nav .nav_logo:hover{
+    color: #fff;
+}
+.header nav .nav_logo,.nav-link{
+    color: #fff;
+    transition: .9s;
+}
+.header nav .nav-link.active{
+    color: #00b3fe;
+}
+/* .header nav .nav-link:visited{
+    color: red;
+} */
+.header nav .nav-link:hover{
+    color: #00b3fe;
+}
+
+
+.dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: 5px;
+    /* margin-left: 100%; */
+}
+.dropdown .dropdown-menu {
+    display: none;
+}
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+					/**============ END NAV PART ============**/
+
+
+
+
+                    
+					/**============ START BANNER PART ============**/
+
+.banner_section{
+    background: linear-gradient(#5893b5,#afe5ff);
+    padding: 0px 100px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.banner_section .banner_part{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.banner_section .banner_left h2{
+    font-size: 30px;
+    color: #111111;
+}
+.banner_section .banner_left h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+}
+.banner_section .banner_left p{
+ 	font-size: 14px;
+    text-align: justify;
+ 	color: #505358;
+}
+.banner_section .banner_left .btn{
+ 	font-size: 13px;
+ 	color: #ffffff;
+ 	margin: 0px 10px;
+    background-color: #00b3fe;
+}
+
+.banner_section .banner_left .btn:hover{
+	background-color: #004274;
+}
+ 
+.banner_section .banner_right {
+    padding-left: 50px;
+}
+.banner_section .banner_right img{
+    width: 100%;
+    height: 100%;
+}
+
+					/**============ END BANNER PART ============**/
+
+
+
+
+					/**============ START MESSAGE PART ============**/
+
+.shortServices_section {
+    padding: 0 100px;
+}
+.shortServices_section .card{
+    transition: .5s;
+    border-radius: 0;
+    border: 1px  solid #fff;
+}
+.shortServices_section .card:hover{
+    transform: translateY(-20px);
+}
+.shortServices_section .short_parts{
+    background-color: #0099dc;
+    color: aliceblue;
+    padding: 40px 0 20px 0;
+    transition: .5s;
+}
+.shortServices_section .short_parts i{
+    font-size: 50px;
+}
+.shortServices_section .short_parts p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+
+
+					/**============ END MESSAGE PART ============**/
+
+
+
+
+					/**============ START ABOUT US PART ============**/
+
+.about_section {
+    padding: 50px 0;
+}
+.about_section .aboutPart_photo img{
+    height: 300px;
+    width: 100%;
+}
+.about_section .aboutPart_text{
+    padding-left: 50px;
+}
+.about_section .aboutPart_text h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.about_section .aboutPart_text p{
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about_section .counter_part h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.about_section .counter_part p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.about_section .counter_part img{
+    width: 100%;
+    height: 100%; 
+    border: 1px solid #00b3fe;
+}
+.about_section .counter_part .counter_text{
+    padding-left: 10px;
+}
+
+					/**============ END ABOUT US PART ============**/
+
+
+
+
+					/**============ START EMERGENCY PART ============**/
+
+.emergency_section{
+    padding: 50px 0;
+}
+.emergency_section .emergency_videoPart img{
+    width: 100%;
+    height: 350px;
+}
+.emergency_section .emergency_contant {
+    padding-left: 50px;
+    background: #00b3fe;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide img{
+    width: 100%; 
+    height: 100%;
+}
+
+
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information .emergancy_information_details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide h1{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide span{
+    font-weight: bolder;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information_details p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+
+.emergency_section .emergency_contant .emergency_picturePart img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+					/**============ END EMERGENCY PART ============**/
+
+
+
+					/**============ START SERVICE PART ============**/
+
+.service_section .service_part{
+    padding: 50px;
+}
+.service_section .card-body{
+    transition: .5s;
+}
+.service_section .card-body:hover{
+    background-color: #00b3fe;
+    color: aliceblue;
+}
+.service_section .card{
+    transition: .4s;
+    behavior: smooth;
+    scroll-behavior: smooth;
+}
+/* .service_section .card:hover{
+    transform: translateY(-10px);
+} */
+
+.service_section .card-body i{
+    font-size: 50px;
+}
+
+.service_section .card-body a{
+    display: none;
+    color: #004272;
+}
+.service_section .card-body:hover a{
+    display: inline;
+}
+
+					/**============ END SERVICE PART ============**/
+
+
+
+					/**============ START FOUNDERS PART ============**/
+
+
+#founders_parts .card .image{
+  margin: 0 auto;
+}
+#founders_parts .card .image img{
+  height: 300px;
+  object-fit: cover;
+}                    
+#founders_parts .card{
+    transition: .4s;
+}
+#founders_parts .card:hover{
+    transform: translateY(-20px);
+}
+#founders_parts .founder_content .doctor_details{
+  text-align: center;
+  background: #004274;
+  padding: 8px 10px;
+}
+#founders_parts .founder_content .doctor_details h2{
+ color:#fff;
+ font-size: 22px;
+}
+#founders_parts .founder_content .doctor_details p{
+ color:#fff;
+ font-size: 16px;
+}
+#founders_parts .card a{
+ display: block;
+}
+
+					/**============ END FOUNDERS PART ============**/
+
+
+
+					/**============ START GALLERY PART ============**/
+
+#gallary_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #1f547e;
+}
+    
+#gallary_section h2{
+    color: #fffdfe;
+}
+.line{
+    width: 5%;
+    height: 2px;
+   background-color: #fffdfe;
+   margin: 0 auto;
+}
+.gallary_part img{
+    height: 100%;
+    width: 100%;
+}
+.gallary_part{
+    padding: 20px 10%;
+}
+#gallary_section .btn:hover{
+    background-color: #00b3fe;
+    color: #fffdfe;
+
+}
+
+					/**============ END GALLERY PART ============**/
+
+
+
+					/**============ START CLIENTS PART ============**/
+
+.clients_section{
+  background: #ebf5f6;
+  padding: 20px 15%;
+  box-sizing: border-box;
+}
+.clients_section .clients_part{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.clients_section .clients_part img{
+    height: 100%;
+    width: 100%;
+}
+.clients_section  .clients_infoDetails {
+    text-align: center;
+    padding: 0 15%;
+}
+.clients_section  .clients_infoDetails h2{
+    font-size: 18px;
+    color: #00b3fe;
+}
+.clients_section  .clients_infoDetails p{
+    font-size: 12px;
+    color: #585858;
+}
+.clients_section  .client-info .icon i{
+    color: #000;
+}
+					/**============ END CLIENTS PART ============**/
+
+
+
+
+					/**============ START TAKE CARE PART ============**/
+
+.takeCare_section{
+    padding: 70px 0 30px 0;
+    background-color: #33c1ff;
+}
+    
+.takeCare_section h2{
+    font-size: 30px;
+    color: #fffdfe;
+}
+.takeCare_section h3{
+    font-size: 35px;
+    color: #004272;
+    margin-bottom: 20px;
+}
+.takeCare_section p{
+    color: #edf7ff;
+    margin-bottom: 0;
+
+}
+#takeCare_section a{
+    display: inline-block;
+ 	font-size: 13px;
+ 	color: #fff;
+ 	padding: 10px 20px;
+ 	margin: 20px 10px;
+    background-color: #004274;
+    transition: .4s;
+}
+#takeCare_section a:hover{
+    background-color: #ffffff;
+    color: #00b3fe;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+}
+
+					/**============ END TAKE CARE PART ============**/
+
+
+
+
+					/**============ START CONTACT PART ============**/
+
+#popular_news .card{
+  border: none;
+}
+#popular_news .card img{
+    width: 100%; 
+    height: 200px;
+}
+#popular_news .news_content{
+  padding: 10px 0px;
+}
+#popular_news .news_content h2{
+  color:#2b2a2a;
+  font-size: 16px;
+  text-align: left;
+}
+#popular_news .news_content .icon{
+  display: flex;
+  justify-content: space-between;
+}
+#popular_news .news_content .icon i{
+ color: #0617cf;
+ font-size: 12px;
+ padding: 8px;
+}
+#popular_news .news_content .icon h3{
+ color: #323232;
+ font-size: 12px;
+}
+#popular_news .news_content hr{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#popular_news .news_content p{
+ color: #323232;
+ font-size: 14px;
+}
+#popular_news .news_content a{
+ font-size: 16px;
+ text-decoration: underline !important;
+}
+
+					/**============ END CONTACT PART ============**/
+
+
+
+
+					/**============ START CONTACT PART ============**/
+
+
+
+					/**============ END CONTACT PART ============**/
+
+
+
+
+					/**============ START FOOTER PART ============**/
+
+.footer_section{
+    background: #1b5583;
+    background-size: cover;
+    background-position: bottom;
+    padding: 50px 0 0 0;
+    margin-top: 10px;
+}
+.footer_section .footer_logo img{
+    width: 80%;
+}
+.footer_section h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline #fff;
+}
+.footer_section p{
+    color: #fff;
+}
+.footer_section ul{
+    
+    padding-left: 0px;
+}
+.footer_section ul li a{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.footer_section ul li a:hover{
+    color: #008159;
+    text-decoration: underline;
+}
+
+					/**============ END FOOTER PART ============**/
+
+
+
+					/**============ START COPYRIGHT PART ============**/
+
+.copyright_section{
+    background: #063852;
+    color: #fff;
+    padding: 10px 0;
+}
+.copyright_section .copyright_part p{
+    font-size: 12px;
+margin-bottom: 0px;
+}
+
+					/**============ END COPYRIGHT PART ============**/
+
+
+
+

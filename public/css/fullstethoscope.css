@@ -1,0 +1,30 @@
+
+                    /**============ START BANNER PART ============**/
+.fullstethoscope_banner{
+    background: url(../img/fullstethoscope.jpg);
+    padding: 0px 120px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.fullstethoscope_banner h2{
+    font-size: 30px;
+    color: #111111;
+}
+.fullstethoscope_banner h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #111111;
+}
+.fullstethoscope_banner p{
+ 	font-size: 16px;
+    text-align: justify;
+ 	color: #343333;
+    padding: 8px;
+}
+					/**============ END BANNER PART ============**/

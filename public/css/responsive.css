@@ -1,0 +1,335 @@
+@media ( max-width:426px ) {
+    /**============ START COMMON CSS PART ============**/
+
+    .title{
+        margin-bottom: 20px;
+    }
+    .title .line{
+        width: 50%;
+    }
+    .btn{
+        padding: 10px 30px;
+    }
+
+					/**============ END COMMON CSS PART ============**/
+
+
+
+					/**============ START NAV PART ============**/
+
+.banner_section .banner_left{
+    text-align: center;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+}                    
+.banner_section{
+    padding: 20px 20px 0 20px;
+}
+.banner_section .banner_left h2{
+    font-size: 20px;
+}
+.banner_section .banner_left h1{
+    font-size: 30px;
+}
+.banner_section .banner_left p{
+ 	font-size: 12px;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+    text-align: center;
+}
+.banner_section .banner_right img{
+    width: 80%;
+}
+
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35px;
+}
+
+                    /**============ END NAV PART ============**/
+
+
+
+					/**============ START MESSAGE PART ============**/
+
+.about_section .aboutPart_text{
+    padding-left: 0px;
+}                    
+.about_section .counter_part{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about_section .counter_parts{
+    width: 30%;
+}
+.about_section .counter_part h1{
+    font-size: 15px;
+}
+.about_section .counter_part p{
+    font-size: 10px;
+}
+.about_section .counter_part img{
+    width: 50%;
+    height: 50%; 
+}
+.about_section .aboutPart_photo{
+    width: 100%;
+}
+.about_section .aboutPart_text{
+    width: 100%;
+}
+
+					/**============ END MESSAGE PART ============**/
+
+
+
+					/**============ START LATEST NEWS PART ============**/
+
+.emergency_section .emergency_contant {
+    padding-left: 10px;
+}                    
+.emergency_section .emergency_videoPart img{
+    width: 100%;
+    height: 200px;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide{
+    width: 20%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide{
+    width: 70%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide img{
+    width: 100%; 
+    height: 100%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information .emergancy_information_details{
+    display: flex;
+    align-items: center;
+}
+
+
+					/**============ END LATEST NEWS PART ============**/
+
+
+
+
+					/**============ START UPDATE NEWS PART ============**/
+
+.service_section .service_part{
+    padding: 0px;
+}
+
+					/**============ END UPDATE NEWS PART ============**/
+
+
+
+
+					/**============ START BAZAR PART ============**/
+
+#founders_parts .card{
+    margin: 0 auto;
+}
+
+					/**============ END BAZAR PART ============**/
+
+
+
+
+					/**============ START PORTFOLIO PART ============**/
+
+
+					/**============ END PORTFOLIO PART ============**/
+
+
+
+					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_section .footer_logo img{
+        width: 40%;
+    }
+					/**============ END FOOTER PART ============**/
+
+}
+
+
+@media ( min-width:427px ) and ( max-width :769px ) {
+
+					/**============ START NAV PART ============**/
+
+.banner_section .banner_left{
+    padding: 50px 0 0px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.banner_section .banner_right {
+    padding-left: 0px;
+    text-align: center;
+}
+.banner_section .banner_right img{
+    width: 50%;
+}
+
+                    /**============ END NAV PART ============**/
+
+
+
+                    /**============ START MESSAGE PART ============**/
+
+.shortServices_section{
+    padding: 0 50px;
+}
+.shortServices_section .short_parts{
+    padding: 20px 20px;
+}
+
+                    /**============ END MESSAGE PART ============**/
+
+
+
+
+                        /**============ START LATEST NEWS PART ============**/
+.about_section .aboutPart_text{
+    padding-left: 0px;
+}                    
+.about_section .counter_part{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about_section .counter_parts{
+    width: 30%;
+}
+.about_section .counter_part h1{
+    font-size: 15px;
+}
+.about_section .counter_part p{
+    font-size: 10px;
+}
+.about_section .counter_part img{
+    width: 50%;
+    height: 50%; 
+}
+.about_section .aboutPart_photo{
+    width: 100%;
+}
+.about_section .aboutPart_text{
+    width: 100%;
+}
+
+
+                    /**============ END LATEST NEWS PART ============**/
+
+
+
+
+                    /**============ START UPDATE NEWS PART ============**/
+
+.emergency_section .emergency_contant {
+    padding-left: 10px;
+}                    
+.emergency_section .emergency_videoPart img{
+    width: 100%;
+}
+.emergency_section .emergency_contant .emergency_textPart {
+    width: 50%;
+}
+.emergency_section .emergency_contant .emergency_picturePart {
+    width: 50%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide{
+    width: 20%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_rightSide{
+    width: 70%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergency_text_leftSide img{
+    width: 50%; 
+    height: 50%;
+}
+.emergency_section .emergency_contant .emergency_textPart .emergancy_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+                    /**============ END UPDATE NEWS PART ============**/
+
+
+
+
+                    /**============ START BAZAR PART ============**/
+
+.clients_section .clients_part .client_imagePart{
+    text-align: center;
+}
+.clients_section .clients_part .client_imagePart img{
+    width: 50%;
+}
+
+                        /**============ END BAZAR PART ============**/
+
+
+
+
+                        /**============ START PORTFOLIO PART ============**/
+
+
+
+                        /**============ END PORTFOLIO PART ============**/
+
+
+    					/**============ START FOOTER PART ============**/
+
+    .footer_section .footer_logo{
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .footer_section .footer_logo img{
+        width: 100%;
+    }
+    .footer_section p{
+        margin-bottom: 0;
+    }
+}
+
+
+@media ( min-width:770px ) and ( max-width :1025px ) {
+    
+                    /**============ START BAZAR PART ============**/
+
+/* .about_section .aboutPart_photo{
+    width: 100%;
+}
+.about_section .aboutPart_text{
+    width: 100%;
+} */
+
+                    /**============ END BAZAR PART ============**/
+
+
+
+                    /**============ END BANNER PART ============**/
+
+.banner_section .banner_left h2{
+    font-size: 20px;
+}
+.banner_section .banner_left h1{
+    font-size: 30px;
+}
+.banner_section .banner_left p{
+ 	font-size: 12px;
+}
+
+                    /**============ START BANNER PART ============**/
+
+}
